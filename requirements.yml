@@ -1,0 +1,9 @@
+---
+## -----------------------------
+## Requirements for playbook.yml
+## -----------------------------
+
+- name: homebrew
+  scm: git
+  src: https://github.com/DreDizzle22/ansible-role-homebrew.git
+  version: master

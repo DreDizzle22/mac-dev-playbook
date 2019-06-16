@@ -1,0 +1,9 @@
+---
+## -----------------------------
+## Playbook for Setting Up Dev Environment on a Mac
+## -----------------------------
+
+- hosts: localhost
+  name: "Building Your Mac's Development Environment"
+  roles:
+    - role: homebrew
