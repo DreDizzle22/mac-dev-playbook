@@ -7,3 +7,6 @@
   name: "Building Your Mac's Development Environment"
   roles:
     - role: homebrew
+    - role: dotfiles
+      dotfiles_git_repo: "https://github.com/DreDizzle22/dotfiles.git"
+      dotfiles_cmd_alias_name: "dot"

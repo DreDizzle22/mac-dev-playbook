@@ -3,6 +3,9 @@
 ## Requirements for playbook.yml
 ## -----------------------------
 
+- name: dotfiles
+  src: dredizzle22.dotfiles
+
 - name: homebrew
   scm: git
   src: https://github.com/DreDizzle22/ansible-role-homebrew.git
